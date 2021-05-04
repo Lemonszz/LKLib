@@ -15,7 +15,8 @@
   ],
   "client": [
     "client.ChunkRenderRegionMixin",
-    "client.CreativeInventoryScreenMixin"
+    "client.CreativeInventoryScreenMixin",
+    "client.AbstractBlockClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1

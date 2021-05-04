@@ -9,16 +9,19 @@
     "Sam"
   ],
   "contact": {
-    "homepage": "www.youtube.com/LASERKNIGHTS",
+    "homepage": "www.youtube.com/LASERKNIGHTS"
   },
 
   "license": "MIT",
   "icon": "assets/lklib/icon.png",
-
+  "accessWidener" : "lklib.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "party.lemon.lklib.LKLib"
+      "party.lemons.lklib.LKLib"
+    ],
+    "client": [
+      "party.lemons.lklib.LKLibClient"
     ]
   },
   "mixins": [

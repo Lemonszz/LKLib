@@ -1,9 +1,25 @@
-# Fabric Example Mod
+# LKLib
 
-## Setup
+Used in LASER KNIGHTS mod, namely Biome Makeover and an upcoming secret project.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+There is currently some missing functionality, but this will largely work.
 
-## License
+No guarantees on stability and is provided as-is.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## To use
+In your build.gradle
+
+Versions can be found here: https://github.com/LASERKNIGHTS/LASERKNIGHTS/tree/main/party/lemons/lklib
+
+```groovy
+repositories {
+	maven {
+        url = 'https://raw.githubusercontent.com/LASERKNIGHTS/LASERKNIGHTS/main/'
+    }
+}
+
+dependencies {
+    modImplementation group: 'party.lemons', name: 'lklib', version: 'LKLib VERSION'
+    include group: 'party.lemons', name: 'lklib', version: 'LKLib VERSION'
+}
+```

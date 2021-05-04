@@ -11,7 +11,8 @@
     "HostileEntityMixin",
     "LivingEntityMixin",
     "MobEntityMixin",
-    "PassiveEntityMixin"
+    "PassiveEntityMixin",
+    "SignTypeMixin"
   ],
   "client": [
     "client.ChunkRenderRegionMixin",

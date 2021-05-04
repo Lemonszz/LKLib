@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "party.lemons.lklib.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AxeItemMixin",
+    "BlockEntityTypeMixin",
+    "FireBlockMixin",
+    "GoalSelectorMixin",
+    "HostileEntityMixin",
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "PassiveEntityMixin"
+  ],
+  "client": [
+    "client.ChunkRenderRegionMixin",
+    "client.CreativeInventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

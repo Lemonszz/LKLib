@@ -1,37 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lklb",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "LK Lib",
+  "description": "General purpose library for mod devs",
   "authors": [
-    "Me!"
+    "Sam"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "www.youtube.com/LASERKNIGHTS",
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/lklib/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "party.lemon.lklib.LKLib"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lklib.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

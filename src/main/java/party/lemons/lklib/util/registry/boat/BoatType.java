@@ -1,7 +1,10 @@
 package party.lemons.lklib.util.registry.boat;
 
+import net.minecraft.client.model.ModelPart;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.SignType;
+import party.lemons.lklib.util.access.SignTypeHelper;
 
 import java.util.function.Supplier;
 

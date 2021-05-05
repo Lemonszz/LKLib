@@ -48,12 +48,12 @@ public class BlockUtil
         ((FireBlockAccess) Blocks.FIRE).lk_registerFlammable(block, burnChance, spreadChance);
     }
 
-    private static boolean always(BlockState state, BlockView world, BlockPos pos)
+    public static boolean always(BlockState state, BlockView world, BlockPos pos)
     {
         return true;
     }
 
-    public static BlockItemPair registerBlockAndItem(Block block, Identifier id,  ItemGroup group)
+    public static BlockItemPair registerBlockAndItem(Block block, Identifier id, ItemGroup group)
     {
         BlockItem bi = new BlockItem(block, ItemUtil.settings(group));
         Registry.register(Registry.BLOCK, id, block);

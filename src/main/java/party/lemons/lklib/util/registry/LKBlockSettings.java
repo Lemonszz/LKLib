@@ -14,6 +14,11 @@ public class LKBlockSettings extends FabricBlockSettings
         super(material, color);
     }
 
+    public LKBlockSettings(Material material)
+    {
+        this(material, material.getColor());
+    }
+
     public LKBlockSettings(AbstractBlock.Settings settings)
     {
         super(settings);

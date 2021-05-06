@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import party.lemons.lklib.util.extension.LootBlocker;
 
 @Mixin(LivingEntity.class)
-public abstract class LivingEntityMixin extends Entity implements LootBlocker
+public abstract class LivingEntityMixin_LootBlock extends Entity implements LootBlocker
 {
     @Unique
     private boolean isLootBlocked = false;
@@ -52,7 +52,7 @@ public abstract class LivingEntityMixin extends Entity implements LootBlocker
         isLootBlocked = tag.getBoolean("LKLootBlock");
     }
 
-    public LivingEntityMixin(EntityType<?> type, World world) {
+    public LivingEntityMixin_LootBlock(EntityType<?> type, World world) {
         super(type, world);
     }
 }

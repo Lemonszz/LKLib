@@ -9,10 +9,15 @@
     "FireBlockMixin",
     "GoalSelectorMixin",
     "HostileEntityMixin",
-    "LivingEntityMixin",
+    "LivingEntityMixin_LootBlock",
+    "LivingEntityMixin_Enchantment",
+    "LivingEntityMixin_Totem",
     "MobEntityMixin",
     "PassiveEntityMixin",
-    "SignTypeMixin"
+    "SignTypeMixin",
+    "EnchantmentHelperMixin",
+    "EnchantRandomlyLootFunctionMixin",
+    "InventoryChangedCriterionMixin"
   ],
   "client": [
     "client.ChunkRenderRegionMixin",

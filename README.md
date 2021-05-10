@@ -1,6 +1,6 @@
 # LKLib
 
-Used in LASER KNIGHTS mod, namely Biome Makeover and an upcoming secret project.
+Used in LASER KNIGHTS mods, namely Biome Makeover and an upcoming secret project.
 
 There is currently some missing functionality, but this will largely work.
 

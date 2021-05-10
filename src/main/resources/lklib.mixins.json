@@ -17,7 +17,8 @@
     "SignTypeMixin",
     "EnchantmentHelperMixin",
     "EnchantRandomlyLootFunctionMixin",
-    "InventoryChangedCriterionMixin"
+    "InventoryChangedCriterionMixin",
+    "NoteBlockMixin"
   ],
   "client": [
     "client.ChunkRenderRegionMixin",

@@ -26,8 +26,8 @@ public class NoteBlockMixin {
         NoteInstrument noteInstrument = NoteInstrument.findInstrumentFor(world, pos, downState);
         if(noteInstrument != null)
         {
-            noteInstrument.play(world, pos, downState);
-            noteInstrument.doParticle(world, pos, downState);
+            noteInstrument.play(world, pos, state);
+            noteInstrument.doParticle(world, pos, state);
             cbi.setReturnValue(true);
         }
     }

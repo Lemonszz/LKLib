@@ -16,7 +16,7 @@ public class BlockNoteInstrument extends NoteInstrument{
     }
 
     @Override
-    public boolean isValidState(World world, BlockPos pos, BlockState state) {
+    public boolean isValidInstrumentBlock(World world, BlockPos pos, BlockState state) {
         return state.getBlock() == block;
     }
 }

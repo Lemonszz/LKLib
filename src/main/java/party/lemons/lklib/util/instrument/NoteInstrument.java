@@ -19,7 +19,7 @@ public abstract class NoteInstrument
     {
         for(NoteInstrument instrument : INSTRUMENTS)
         {
-            if(instrument.isValidState(world, pos, state))
+            if(instrument.isValidInstrumentBlock(world, pos, state))
                 return instrument;
         }
 
@@ -35,7 +35,14 @@ public abstract class NoteInstrument
     }
 
 
-    public abstract boolean isValidState(World world, BlockPos pos, BlockState state);
+    /***
+     *
+     * @param world
+     * @param pos position of the NOTE BLOCK
+     * @param state blockstate of the block UNDER the noteblock
+     * @return if valid instrument block
+     */
+    public abstract boolean isValidInstrumentBlock(World world, BlockPos pos, BlockState state);
 
     public float getPitch(World world, BlockPos pos, BlockState state)
     {

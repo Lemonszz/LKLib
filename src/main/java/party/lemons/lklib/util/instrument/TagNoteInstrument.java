@@ -17,7 +17,7 @@ public class TagNoteInstrument extends NoteInstrument{
     }
 
     @Override
-    public boolean isValidState(World world, BlockPos pos, BlockState state) {
+    public boolean isValidInstrumentBlock(World world, BlockPos pos, BlockState state) {
         return state.isIn(tag);
     }
 }
